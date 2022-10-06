@@ -1,0 +1,32 @@
+div{
+    width: fit-content;
+    margin: 0 auto;
+}
+div:nth-of-type(2){
+    margin: 20px auto 80px auto;
+}
+input{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+}
+#clickBtn{
+    color: #202124;
+    height: 350px;
+    width: 350px;
+    border-radius:50% ;
+    background-color: #92B5F2;
+    font-size: 35px;
+    cursor: pointer;
+}
+div:nth-of-type(2) button{
+    font-size: 17px;
+    background-color: #F7D57C ;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button:active{
+    border: 2px solid lightgray;
+}
